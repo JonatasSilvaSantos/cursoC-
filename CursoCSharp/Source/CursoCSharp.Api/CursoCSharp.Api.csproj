@@ -114,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ProdutoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -133,7 +134,20 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CursoCSharp.Domain\CursoCSharp.Domain.csproj">
+      <Project>{bcbb13b9-69a0-4e88-bace-5bec0b3ab421}</Project>
+      <Name>CursoCSharp.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CursoCSharp.Repository\CursoCSharp.Repository.csproj">
+      <Project>{4497E5E3-BD10-4D94-8E1F-484A5C2767E8}</Project>
+      <Name>CursoCSharp.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CursoCSharp\CursoCSharp.csproj">
+      <Project>{f26e0488-581f-46c0-803b-e1e8212ed634}</Project>
+      <Name>CursoCSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

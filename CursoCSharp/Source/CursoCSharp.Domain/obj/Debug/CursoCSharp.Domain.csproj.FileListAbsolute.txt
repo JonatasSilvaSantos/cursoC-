@@ -1,0 +1,5 @@
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Domain\bin\Debug\CursoCSharp.Domain.dll
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Domain\bin\Debug\CursoCSharp.Domain.pdb
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Domain\obj\Debug\CursoCSharp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Domain\obj\Debug\CursoCSharp.Domain.dll
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Domain\obj\Debug\CursoCSharp.Domain.pdb

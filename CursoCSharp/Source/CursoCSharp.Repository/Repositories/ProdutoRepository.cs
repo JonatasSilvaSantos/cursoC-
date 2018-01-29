@@ -1,5 +1,6 @@
 ﻿using CursoCSharp.Domain.Entidades;
 using CursoCSharp.Repository.DataBase;
+using ProjetoCursoFeriasSMN.Repository.DataBase;
 using System.Collections.Generic;
 using System.Runtime.Remoting.Messaging;
 
@@ -17,14 +18,18 @@ namespace CursoCSharp.Repository.Repositories
         {
             ExecuteProcedure("[dbo].[SP_SelProdutos]");
 
-            var produtos = new List<Produto>();
+            var listaProdutos = new List<Produto>();
 
             using (var reader = ExecuteReader())
-            {
                 while (reader.Read())
-                    produtos.Add(new Produto(while (reader.Read())
-                    listaProdutos.Add(new Produto);
-            }
+                    listaProdutos.Add(new Produto
+                    {
+                        CodigoProduto = reader.ReadAsInt("CodigoProduto"),
+                        Nome = reader.ReadAsString("Nome"),
+                        Preco = reader.ReadAsDecimal("Preco"),
+                        Estoque = reader.ReadAsInt("Estoque")
+                    });
+            
         }
     }
 }

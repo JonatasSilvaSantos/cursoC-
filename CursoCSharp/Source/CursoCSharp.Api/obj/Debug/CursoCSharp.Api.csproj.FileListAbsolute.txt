@@ -1,0 +1,1 @@
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\obj\Debug\CursoCSharp.Api.csprojResolveAssemblyReference.cache
