@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 
 namespace CursoCSharp.Repository.DataBase
 {
-    class Execucao
+    public class Execucao
     {
         private readonly Conexao _conexao;
         private SqlCommand _command;

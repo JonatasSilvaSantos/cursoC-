@@ -42,10 +42,15 @@
   <ItemGroup>
     <Compile Include="DataBase\Conexao.cs" />
     <Compile Include="DataBase\Execucao.cs" />
+    <Compile Include="DataBase\SQLExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ProdutoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Repositories\" />
+    <ProjectReference Include="..\CursoCSharp.Domain\CursoCSharp.Domain.csproj">
+      <Project>{BCBB13B9-69A0-4E88-BACE-5BEC0B3AB421}</Project>
+      <Name>CursoCSharp.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
