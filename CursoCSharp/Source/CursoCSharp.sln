@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp.Repository", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp.Domain", "CursoCSharp.Domain\CursoCSharp.Domain.csproj", "{BCBB13B9-69A0-4E88-BACE-5BEC0B3AB421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoCSharp.Application", "CursoCSharp.Application\CursoCSharp.Application.csproj", "{EE24C983-6BB0-458F-9B5B-162BFF87B1C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{BCBB13B9-69A0-4E88-BACE-5BEC0B3AB421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCBB13B9-69A0-4E88-BACE-5BEC0B3AB421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCBB13B9-69A0-4E88-BACE-5BEC0B3AB421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE24C983-6BB0-458F-9B5B-162BFF87B1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE24C983-6BB0-458F-9B5B-162BFF87B1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE24C983-6BB0-458F-9B5B-162BFF87B1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE24C983-6BB0-458F-9B5B-162BFF87B1C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +58,6 @@ Global
 		{6074558C-AD00-41A2-B37C-295B33340581} = {09A0C746-9993-424E-9DB7-7D75D6915442}
 		{4497E5E3-BD10-4D94-8E1F-484A5C2767E8} = {92B3B15C-8BEE-4E52-8D7E-44924160ED3F}
 		{BCBB13B9-69A0-4E88-BACE-5BEC0B3AB421} = {FBCD98CE-DBE4-49C3-BAEC-65EDF9E4CB54}
+		{EE24C983-6BB0-458F-9B5B-162BFF87B1C9} = {16EF62F7-A634-4203-8D5C-D5FFC8C81B69}
 	EndGlobalSection
 EndGlobal

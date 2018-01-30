@@ -12,12 +12,6 @@ namespace CursoCSharp.Controllers
         {
             return View();
         }
-
-        public  ActionResult Teste()
-        {
-            return View();
-        }
-
        
     }
 }

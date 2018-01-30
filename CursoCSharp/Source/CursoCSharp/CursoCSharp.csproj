@@ -149,6 +149,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProdutoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -200,7 +201,12 @@
     <Content Include="LIB\fonts\roboto\Roboto-Thin.woff" />
     <Content Include="LIB\fonts\roboto\Roboto-Thin.woff2" />
     <None Include="Project_Readme.html" />
-    <Content Include="Views\Home\Teste.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CursoCSharp.Application\CursoCSharp.Application.csproj">
+      <Project>{EE24C983-6BB0-458F-9B5B-162BFF87B1C9}</Project>
+      <Name>CursoCSharp.Application</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
