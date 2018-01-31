@@ -58,3 +58,8 @@ C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\bin\System
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\obj\Debug\CursoCSharp.Api.dll
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\obj\Debug\CursoCSharp.Api.pdb
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\bin\CursoCSharp.Application.dll
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\bin\CursoCSharp.Application.pdb
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\bin\WebGrease.dll
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\bin\Antlr3.Runtime.dll
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Api\bin\Antlr3.Runtime.pdb

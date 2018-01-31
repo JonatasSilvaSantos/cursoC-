@@ -19,7 +19,7 @@ namespace CursoCSharp.Controllers
                 return Content(response.ContentAsString);
             }
 
-            return View("", response.Content);
+            return View("GridProdutos", response.Content);
         }
     }
 }

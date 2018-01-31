@@ -158,7 +158,12 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="LIB\css\Geral.css" />
+    <Content Include="LIB\css\Home.css" />
     <Content Include="LIB\css\materialize.min.css" />
+    <Content Include="LIB\images\download.svg" />
+    <Content Include="LIB\images\smnicon.png" />
+    <Content Include="LIB\images\smnwallpaper.png" />
     <Content Include="LIB\scripts\materialize.min.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
@@ -185,7 +190,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
-    <Folder Include="LIB\images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +205,7 @@
     <Content Include="LIB\fonts\roboto\Roboto-Thin.woff" />
     <Content Include="LIB\fonts\roboto\Roboto-Thin.woff2" />
     <None Include="Project_Readme.html" />
+    <Content Include="Views\Produto\GridProdutos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CursoCSharp.Application\CursoCSharp.Application.csproj">
