@@ -106,3 +106,4 @@ C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp\bin\Newtonsoft
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp\obj\Debug\CursoCSharp.csprojResolveAssemblyReference.cache
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp\obj\Debug\CursoCSharp.dll
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp\obj\Debug\CursoCSharp.pdb
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp\bin\System.Net.Http.Formatting.dll

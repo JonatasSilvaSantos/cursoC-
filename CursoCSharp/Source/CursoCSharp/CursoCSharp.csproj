@@ -164,12 +164,18 @@
     <Content Include="LIB\images\download.svg" />
     <Content Include="LIB\images\smnicon.png" />
     <Content Include="LIB\images\smnwallpaper.png" />
+    <Content Include="LIB\scripts\jquery.mask.js" />
     <Content Include="LIB\scripts\materialize.min.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -206,6 +212,7 @@
     <Content Include="LIB\fonts\roboto\Roboto-Thin.woff2" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Produto\GridProdutos.cshtml" />
+    <Content Include="Views\Produto\FormularioCadastro.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CursoCSharp.Application\CursoCSharp.Application.csproj">

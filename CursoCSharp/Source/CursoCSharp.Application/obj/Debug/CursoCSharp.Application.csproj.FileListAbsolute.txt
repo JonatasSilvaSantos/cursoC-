@@ -5,3 +5,6 @@ C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Application\bi
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Application\obj\Debug\CursoCSharp.Application.csprojResolveAssemblyReference.cache
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Application\obj\Debug\CursoCSharp.Application.dll
 C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Application\obj\Debug\CursoCSharp.Application.pdb
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Application\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Application\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Jônatas\Desktop\Curso c#\CursoCSharp\Source\CursoCSharp.Application\bin\Debug\System.Net.Http.Primitives.dll

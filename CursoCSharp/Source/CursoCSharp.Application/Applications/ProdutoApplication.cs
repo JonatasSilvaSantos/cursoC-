@@ -1,6 +1,7 @@
 ﻿using CursoCSharp.Application.Models;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Http.Formatting;
 
 namespace CursoCSharp.Application.Applications
 {
@@ -14,6 +15,15 @@ namespace CursoCSharp.Application.Applications
             {
                 var response = client.GetAsync($"{_enderecoApi}/listaProdutos").Result;
                 return new Response<IEnumerable<ProdutoModel>>(response.Content.ReadAsStringAsync().Result, response.StatusCode);
+            }
+        }
+
+        public Response<string> PostProduto(ProdutoModel produto)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = client.PostAsync($"{_enderecoApi}/cadastraProduto", produto, new JsonMediaTypeFormatter()).Result;
+                return new Response<string>(response.Content.ReadAsStringAsync().Result, response.StatusCode);
             }
         }
     }

@@ -1,4 +1,6 @@
-﻿using CursoCSharp.Application.Applications;
+﻿using CursoCSharp.Application;
+using CursoCSharp.Application.Applications;
+using CursoCSharp.Application.Models;
 using System.Net;
 using System.Web.Mvc;
 
@@ -12,7 +14,7 @@ namespace CursoCSharp.Controllers
         {
             var response = _produtoApplication.GetProdutos();
 
-            if(response.Status != HttpStatusCode.OK)
+            if (response.Status != HttpStatusCode.OK)
             {
                 Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 Response.TrySkipIisCustomErrors = true;
@@ -20,6 +22,20 @@ namespace CursoCSharp.Controllers
             }
 
             return View("GridProdutos", response.Content);
+        }
+
+        public ActionResult CadastrarProduto(ProdutoModel produto)
+        {
+            var response = _produtoApplication.PostProduto(produto);
+
+            if (response.Status != HttpStatusCode.OK)
+            {
+                Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                Response.TrySkipIisCustomErrors = true;
+                return Content(response.ContentAsString);
+            }
+
+            return Content(response.Content);
         }
     }
 }

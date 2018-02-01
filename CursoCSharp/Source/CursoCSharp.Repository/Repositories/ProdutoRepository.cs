@@ -3,6 +3,7 @@ using CursoCSharp.Repository.DataBase;
 using ProjetoCursoFeriasSMN.Repository.DataBase;
 using System.Collections.Generic;
 using System.Runtime.Remoting.Messaging;
+using System;
 
 namespace CursoCSharp.Repository.Repositories
 {
@@ -30,6 +31,21 @@ namespace CursoCSharp.Repository.Repositories
                         Estoque = reader.ReadAsShort("Estoque")
                     });
             return listaProdutos;
+        }
+
+        public string CadastraProduto(Produto produto)
+        {
+            ExecuteProcedure("SP_InsProduto");
+            AddParameter("@Nome", produto.Nome);
+            AddParameter("@Preco", produto.Preco);
+            AddParameter("@Estoque", produto.Estoque);
+
+            var retorno = ExecuteNonQueryWithReturn();
+
+            if (retorno == 1)
+                return "Erro ao inserir o produto.";
+
+            return null;
         }
     }
 }
