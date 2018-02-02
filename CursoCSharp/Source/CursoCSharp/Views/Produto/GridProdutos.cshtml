@@ -25,7 +25,24 @@
                 <td>@produto.Nome</td>
                 <td>@produto.Preco</td>
                 <td>@produto.Estoque</td>
+                <td>
+                    <a class="btn waves-effect" onclick="DeletaProduto(@produto.CodigoProduto)">
+                        <i class="material-icons"> delete</i>
+                    </a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+
+<script>
+
+    function DeletaProduto(codigo) {
+        $.get('@Url.Action("DeletaProduto")',
+            {
+                codigoProduto: codigo
+            }).fail(function () {
+                Materialize.toast("Algo deu errado", 4000);
+            });
+    }
+</script>

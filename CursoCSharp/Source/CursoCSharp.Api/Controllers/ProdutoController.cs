@@ -41,5 +41,23 @@ namespace CursoCSharp.Api.Controllers
                 return BadRequest("Algo deu errado");
             }
         }
+
+        [HttpDelete, Route("deletaProduto/{codigoProduto}")]
+        public IHttpActionResult DeletaProduto(int codigoProduto)
+        {
+            try
+            {
+                var resposta = _produtoRepository.DeletarProduto(codigoProduto);
+
+                if (resposta != null)
+                    return BadRequest(resposta);
+
+                return Ok("Produto foi deletado com sucesso");
+            }
+            catch
+            {
+                return BadRequest("Algo deu errado!");
+            }
+        }
     }
 }

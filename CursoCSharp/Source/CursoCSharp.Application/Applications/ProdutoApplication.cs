@@ -26,5 +26,14 @@ namespace CursoCSharp.Application.Applications
                 return new Response<string>(response.Content.ReadAsStringAsync().Result, response.StatusCode);
             }
         }
+
+        public Response<string> DeletaProduto(int codigoProduto)
+        {
+            using (var client = new HttpClient())
+            {
+                var response = client.DeleteAsync($"{_enderecoApi}/deletaProduto/{codigoProduto}").Result;
+                return new Response<string>(response.Content.ReadAsStringAsync().Result, response.StatusCode);
+            }
+        }
     }
 }
